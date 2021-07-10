@@ -114,7 +114,7 @@ var list=[
 str=''
 
 for(i of list){
-    str+=`<li class="item flex fdc">
+    str+=`<a href="./detail.html" class="item flex fdc">
                 <img src="${i.imgUrl}" alt="">
                 <div class="desc flex fdc  mt-10">
                     <p class="f14 mt-5">${i.masterName}</p>
@@ -127,7 +127,7 @@ for(i of list){
                         </span>
                     </p>
                 </div>
-            </li>`
+            </a>`
 }
 
 document.getElementById('list').innerHTML=str
