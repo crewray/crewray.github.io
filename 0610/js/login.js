@@ -30,7 +30,7 @@ var loginView = {
 
         $.ajax({
             type: "post",
-            url: 'http://huruqing.cn:3000/api/user/getSmsCode',
+            url: '//huruqing.cn:3000/api/user/getSmsCode',
             data: {phone: phone},
             dataType: "json",
             success: function (response) {
@@ -69,7 +69,7 @@ var loginView = {
 
         $.ajax({
             type: "post",
-            url: "http://huruqing.cn:3000/api/user/loginBySmsCode",
+            url: "//huruqing.cn:3000/api/user/loginBySmsCode",
             data: {phone:phone,smsCode:smsCode},
             dataType: "json",
             success: function (res) {
