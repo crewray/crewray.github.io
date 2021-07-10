@@ -76,7 +76,7 @@ function CinemaList() {
 }
 
 let cinemaList = new CinemaList()
-utils.promise('http://huruqing.cn:3000/api/cinema/getList').then(function (res) {
+utils.promise('huruqing.cn:3000/api/cinema/getList').then(function (res) {
     cinemaList.render(res)
 }).catch(function (err) {
     alert(err)

@@ -53,7 +53,7 @@ var filmDetial = {
 }
 
 var params=location.search
-filmDetial.url=`http://huruqing.cn:3000/api/film/getDetail${params}`
+filmDetial.url=`huruqing.cn:3000/api/film/getDetail${params}`
 
 ajax.get(filmDetial.url, filmDetial.render)
 

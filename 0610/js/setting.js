@@ -2,7 +2,7 @@ var settingView={
     logout(){
         $.ajax({
             type: "post",
-            url: "http://huruqing.cn:3000/api/user/logout",
+            url: "huruqing.cn:3000/api/user/logout",
             data: '',
             dataType: "json",
             success: function (res) {
