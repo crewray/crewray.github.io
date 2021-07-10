@@ -1,0 +1,75 @@
+.header {
+    width: 100%;
+    top: 0;
+    z-index: 4;
+
+    p {
+        height: 50px;
+        font-size: 16px;
+
+        .icon-sousuo {
+            font-size: 22px;
+        }
+
+        border-bottom: 1px solid #f5f5f5;
+
+    }
+    span{
+        cursor: pointer;
+    }
+    .area{
+        flex-wrap: wrap;
+        
+        li{
+            width: 25%;
+            height: 30px;
+            cursor: pointer;
+        }
+        span{
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+        .active span{
+            color: red;
+            border: red 1px solid;
+            border-radius: 5px;
+        }
+    }
+}
+
+.icon-jiantou9 {
+    font-size: 12px;
+}
+
+.list {
+    margin-top: 105px;
+
+    .item {
+        padding: 15px;
+        border-bottom: 1px solid #f5f5f5;
+
+        p span:first-child {
+            display: block;
+            max-width: 80%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+    }
+
+
+}
+
+.ff88229 {
+    color: #ff8229;
+}
+.pop {
+    background: rgba(0,0,0,.6);
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,104 @@
+.header{
+    width: 100%;
+    height: 56vw;
+    overflow: hidden;
+    .back{
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: rgba(228, 215, 215, 0.3);
+        left: 5px;
+        top: 5px;
+    }
+    img{
+        width: 100%;
+        // transform: translateY(-10%);
+    }
+}
+.desc{
+    // height: 210px;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    .film-name{
+        span:first-child{
+            font-size: 18px;
+            color: #191a1b;
+        }
+        span:last-child{
+            font-size: 12px;
+            background-color: #d2d6dc;
+            color: #eeeeee;
+            width: 28px;
+            height: 16px;
+            border-radius: 5px;
+            // display: block;
+        }
+
+        
+    }
+    .review{
+        color: #ffba8b;
+        span:first-child{
+            font-style: italic;
+            font-size: 16px;
+        }
+        span:last-child{
+            font-size: 14px;
+            margin-left: 2px;
+        }
+    }
+    .detail{
+        color: #797d82;
+    }
+}
+.actors{
+    overflow: hidden;
+    .list{
+        overflow-x: auto;
+        overflow-y: hidden;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        img{
+            width: 85px;
+            height: 85px;
+            
+        }
+        &:last-child{
+            margin-right: 15px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background-color: #ff5f16;
+
+}
+
+.scenes{
+    p{
+        padding: 15px;
+    }
+    .scene-list{
+        overflow-x: auto;
+        overflow-y: hidden;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        img{
+            width: 150px;
+            height: 100px;
+            
+        }
+    }
+
+}
+
+body{
+    padding-bottom: 60px;
+}

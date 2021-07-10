@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom: 50px solid red;
+        border-left: 50px solid blue;
+        border-top: 50px solid green;
+        border-right: 50px solid gold;
+    }
+</style>
+
+<body>
+    <div class="box" onclick="index.render()">
+
+    </div>
+    <script>
+        function Index(name) {
+            this.name = name
+            var that = this
+            this.render = function () {
+                console.log(that.name)
+            }
+        }
+
+        var obj={
+            name:'obj',
+            getName(){
+                console.log(this.name)
+            },
+            getThis(){
+                console.log(this)
+            }
+        }
+
+        function test(f) {
+            f()
+        }
+        var index = new Index('lei')
+        var index2 = new Index('wo')
+        // test(index.render)
+        // test(index2.render)
+        // index.render()
+        // obj.getThis()
+        test.apply(obj,obj.getThis)
+    </script>
+</body>
+
+</html>

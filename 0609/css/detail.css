@@ -1,0 +1,81 @@
+.gedan .new {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc !important;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.gedan .new .cover {
+  width: 100px;
+  height: 100px;
+}
+.gedan .new p {
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gedan .new p:nth-of-type(2) {
+  color: #666;
+}
+.gedan .new li {
+  width: 100px;
+  margin-right: 20px;
+}
+.gedan .new li:nth-of-type(1) {
+  margin-left: 40px;
+}
+.gedan .new .iconfont {
+  position: absolute;
+  top: 40%;
+}
+.gedan .new .icon-zuojiantou {
+  left: 10px;
+}
+.gedan .new .icon-youjiantou1 {
+  right: 10px;
+}
+.rank .info p:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+.rank .info p:last-child {
+  margin-top: 10px;
+}
+.rank .rank-logo .iconfont {
+  font-size: 20px;
+  color: #666;
+}
+.singer .s-info p:first-child {
+  font-size: 16px;
+}
+.singer .s-info p:last-child {
+  color: #666;
+  font-size: 12px;
+}
+.liver .info p:last-child {
+  color: #666;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.icon-hongquan {
+  font-size: 16px;
+  color: red;
+}
+.gedan .list li {
+  margin-bottom: 30px;
+}
+.nav li,
+.nav span,
+.nav h1 {
+  cursor: pointer;
+}
+.slide .poster {
+  height: 100%;
+  width: 698px;
+}
+.slide .download {
+  width: 300px;
+  height: 100%;
+}

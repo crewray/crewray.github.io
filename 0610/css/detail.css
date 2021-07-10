@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  height: 56vw;
+  overflow: hidden;
+}
+.header .back {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: rgba(228, 215, 215, 0.3);
+  left: 5px;
+  top: 5px;
+}
+.header img {
+  width: 100%;
+}
+.desc {
+  background-color: #ffffff;
+  padding: 20px 15px;
+}
+.desc .film-name span:first-child {
+  font-size: 18px;
+  color: #191a1b;
+}
+.desc .film-name span:last-child {
+  font-size: 12px;
+  background-color: #d2d6dc;
+  color: #eeeeee;
+  width: 28px;
+  height: 16px;
+  border-radius: 5px;
+}
+.desc .review {
+  color: #ffba8b;
+}
+.desc .review span:first-child {
+  font-style: italic;
+  font-size: 16px;
+}
+.desc .review span:last-child {
+  font-size: 14px;
+  margin-left: 2px;
+}
+.desc .detail {
+  color: #797d82;
+}
+.actors {
+  overflow: hidden;
+}
+.actors .list {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.actors .list::-webkit-scrollbar {
+  display: none;
+}
+.actors .list img {
+  width: 85px;
+  height: 85px;
+}
+.actors .list:last-child {
+  margin-right: 15px;
+}
+.actors .list p {
+  text-align: center;
+}
+.bottom {
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: #ff5f16;
+}
+.scenes p {
+  padding: 15px;
+}
+.scenes .scene-list {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.scenes .scene-list::-webkit-scrollbar {
+  display: none;
+}
+.scenes .scene-list img {
+  width: 150px;
+  height: 100px;
+}
+body {
+  padding-bottom: 60px;
+}

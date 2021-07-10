@@ -1,0 +1,32 @@
+.logo {
+  height: 200px;
+}
+.logo img {
+  height: 60px;
+  width: 60px;
+}
+body {
+  background: #ffffff;
+}
+.form .input {
+  border: 0;
+  outline: none;
+}
+.form #btn {
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+.form div {
+  border-bottom: 1px solid #ebebeb;
+}
+.form button {
+  width: 100%;
+  background-color: #ff5f16;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+}

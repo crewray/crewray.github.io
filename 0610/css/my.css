@@ -1,0 +1,26 @@
+.header {
+  height: 160px;
+  background: url("../images/beij.png") no-repeat;
+  background-size: 100% 100%;
+}
+.header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.orders {
+  height: 80px;
+}
+.orders .iconfont {
+  font-size: 26px;
+  line-height: 1;
+}
+.orders .ffc916 {
+  color: #ffc916;
+}
+.orders .c7db76 {
+  color: #c7db76;
+}
+.list .item {
+  height: 50px;
+}

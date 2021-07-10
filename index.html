@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* text-decoration: none; */
+            border: 0;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
+            
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .webList li {
+            padding: 15px;
+            background-color: #333;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        li a:active{
+            color: red;
+        }
+
+        .time {
+            padding: 10px;
+            font-size: 20px;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="time"></p>
+        <ul class="webList">
+            <li>
+                <a href="./0609/index.html">网易云音乐</a>
+            </li>
+            <li>
+                <a href="./0610/index.html">卖座网</a>
+            </li>
+            <li>
+                <a href="./fruit/index.html">生鲜销售</a>
+            </li>
+            <li>
+                <a href="./0621/index.html">计算器</a>
+            </li>
+            <li>
+                <a href="./0622/todolist.html">todolist</a>
+            </li>
+            <li>
+                <a href="">敬请期待...</a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        var $time = document.querySelector('.time')
+
+        function get_date() {
+            var date = new Date()
+            var month=Number(date.getMonth())+1
+            var dateNow=date.getDate()
+            var hour=date.getHours()
+            var min=date.getMinutes()
+            var second=date.getSeconds()            
+            month = month < 10 ? '0' + month : month
+            dateNow = dateNow < 10 ? '0' + dateNow : dateNow
+            hour = hour < 10 ? '0' + hour : hour
+            min = min < 10 ? '0' + min : min
+            second = second < 10 ? '0' + second : second
+            $time.innerHTML =
+            `${date.getFullYear()}年${month}月${dateNow}日 ${hour}:${min}:${second}`
+        }
+
+        get_date()
+        setInterval(get_date, 1000)
+        
+    </script>
+</body>
+
+</html>

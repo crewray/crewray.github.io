@@ -1,0 +1,45 @@
+body {
+  padding-bottom: 50px;
+}
+.header .location {
+  width: 50px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 20px;
+  left: 5px;
+  top: 20px;
+  font-size: 14px;
+  z-index: 999;
+}
+.header .location .iconfont {
+  font-size: 12px;
+}
+.header img {
+  width: 100%;
+}
+.list .item {
+  border-bottom: 1px solid #f4f4f4;
+}
+.list .item .img {
+  width: 65px;
+  height: 90px;
+}
+.list .item .t-box {
+  margin-left: 11px;
+}
+.list .item .buy {
+  border: 1px solid #ff5f16;
+  width: 50px;
+  height: 25px;
+  color: #ff5f16;
+  font-size: 12px;
+}
+.list .item .actors {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.list .item .desc {
+  width: calc(100% - 150px);
+}

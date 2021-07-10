@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+  height: 46px;
+  padding: 0 15px;
+}
+.header p:first-child {
+  color: #c03131;
+  font-size: 14px;
+}
+.header p:nth-child(2) {
+  font-size: 16px;
+}
+.header p:nth-child(3) {
+  width: 44px;
+}
+p {
+  color: #323233;
+}
+.slides img {
+  width: 100%;
+}
+.info {
+  padding: 15px;
+}
+.info .title {
+  line-height: 25px;
+}
+.info .title span {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+  padding: 0 5px;
+  color: #fff;
+}
+.info .title span:first-child {
+  background-color: #78a0d1;
+}
+.info .title span:nth-child(2) {
+  background-color: #91bc6f;
+}
+.info .title p {
+  font-size: 15px;
+  display: inline;
+}
+.info .box {
+  padding: 10px 16px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.title-wrap {
+  height: 46px;
+  font-size: 12px;
+}
+.title-wrap .title::before {
+  position: absolute;
+}
+.img-wrap img {
+  width: 100%;
+}
+.img-wrap .title {
+  height: 46px;
+}
+.context {
+  padding: 15px;
+}
+.context .message {
+  height: 24px;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #797d82;
+}
+.foot {
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+  height: 50px;
+}
+.foot .box {
+  width: 50px;
+}
+.foot .iconfont {
+  font-size: 24px;
+}
+.foot .icon-heart-o-copy {
+  font-weight: bold;
+}
+.foot p {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #797d82;
+}

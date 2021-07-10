@@ -1,0 +1,15 @@
+.footer {
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+  }
+  .footer .iconfont{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  body{
+    padding-bottom: 60px;
+}
+.ff7701{
+  color: #ff7701;
+}

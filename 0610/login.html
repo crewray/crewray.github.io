@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="logo flex jc-c aic">
+        <img src="./images/logo.png" alt="">
+    </div>
+    <div class="form ml-25 mr-25 mt-25">
+        <div class="phone flex jc-sa f16 pb-10">
+            <input value="13811111111" required id="phone" placeholder="手机号" class="input fg1" type="tel" maxlength="11" autofocus>
+            <input type="button" id="btn" value="获取验证码">
+        </div>
+        <div class="password pb-10 f16 mt-25">
+            <input id="code" required class="input"  placeholder="验证码" type="text">
+        </div>
+        <button id="login" class="f18 mt-25">登录</button>
+    </div>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

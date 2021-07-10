@@ -1,0 +1,20 @@
+.footer {
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+  }
+  .footer .on {
+    color: #c03131;
+  }
+  body {
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .red{
+    color: #c03131;
+  }
+  .default{
+    color: #797d82;
+  }
