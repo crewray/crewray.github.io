@@ -43,7 +43,7 @@ var home = {
         })
     },
     ajaxGet(){
-        var url = '//huruqing.cn:3000/api/film/getList'
+        var url = 'http://huruqing.cn:3000/api/film/getList'
         var $this=this
         var ajax=new XMLHttpRequest()
     
